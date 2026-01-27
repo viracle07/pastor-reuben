@@ -52,10 +52,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         {/* Google Search Console verification */}
-        <meta
-          name="google-site-verification"
-          content="google7c5c8a579f364ab8.html"
-        />
+        <meta name="google-site-verification" content="oFlX-FvdiV6d8sb66HJLDO3Zc6Y_uiqzMpXC4LvCtIE" />
       </Head>
       <body
         className={`${lora.className} antialiased`}
