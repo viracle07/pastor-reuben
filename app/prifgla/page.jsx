@@ -114,7 +114,7 @@ const page = () => {
               In 2022, Chief Reuben Clifford Wilson took a bold step to strengthen political engagement and leadership in Nigeria by inaugurating PRIFGLA chapters in every South-South state. This strategic initiative was aimed at mobilizing and galvanizing support for President Bola Ahmed Tinubu, while simultaneously building a structured network of committed leaders and supporters across the region. The establishment of these chapters significantly enhanced the organization’s visibility, influence, and ideological reach, positioning PRIFGLA as a powerful political movement capable of shaping public opinion and driving meaningful change.            </p>
           </div>
 
-          <video src="/https://res.cloudinary.com/du5odjbs0/video/upload/v1769470741/prifgla_wqknwz.mp4"
+          <video src="https://res.cloudinary.com/du5odjbs0/video/upload/v1769470741/prifgla_wqknwz.mp4"
             autoPlay
             loop
             muted
