@@ -67,7 +67,7 @@ const page = () => {
           {/* Background video */}
           <video
             className="absolute top-0 left-0 w-full h-full object-cover bg-center"
-            src="/debateVid.mp4"
+            src="https://res.cloudinary.com/du5odjbs0/video/upload/v1769470444/debateVid_nrb3gl.mp4"
             autoPlay
             loop
             muted

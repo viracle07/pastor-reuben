@@ -19,7 +19,7 @@ const page = () => {
           {/* Background video */}
           <video
             className="absolute top-0 left-0 w-full h-full object-cover bg-center"
-            src="/bg3.mp4"
+            src="https://res.cloudinary.com/du5odjbs0/video/upload/v1769470443/bg3_nvghvv.mp4"
             autoPlay
             loop
             muted

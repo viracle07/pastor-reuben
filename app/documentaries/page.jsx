@@ -11,27 +11,27 @@ import { motion } from "framer-motion";
 const videos = [
   {
     title: "Award Recognitions: Honouring Leadership and Impact",
-    src: "/docvid1.mp4",
+    src: "https://res.cloudinary.com/du5odjbs0/video/upload/v1769470665/docvid1_lsuvxm.mp4",
   },
   {
     title: "Chief Reuben commissioned palm kernel and oil factory",
-    src: "/docvid2.mp4",
+    src: "https://res.cloudinary.com/du5odjbs0/video/upload/v1769470831/docvid2_xogk4u.mp4",
   },
   {
     title: "2025 Pastor Reuben foundation debate competition",
-    src: "/docvid3.mp4",
+    src: "https://res.cloudinary.com/du5odjbs0/video/upload/v1769470757/docvid3_hgmlmq.mp4",
   },
   {
     title: "Pastor Reuben annual dancing and canoe competition",
-    src: "/docvid4.mp4",
+    src: "https://res.cloudinary.com/du5odjbs0/video/upload/v1769470747/docvid4_ksnuzu.mp4",
   },
   {
     title: "Yuletide Food Items part 1",
-    src: "/docvid11.mp4",
+    src: "https://res.cloudinary.com/du5odjbs0/video/upload/v1769470812/docvid11_uj1rds.mp4",
   },
   {
     title: "Yuletide Food Items part 2",
-    src: "/docvid5.mp4",
+    src: "https://res.cloudinary.com/du5odjbs0/video/upload/v1769470522/docvid5_u6wmdu.mp4",
   },
   {
     title: "Birthday Outreach: Sharing Love, Hope, and Compassion",
@@ -39,7 +39,7 @@ const videos = [
   },
   {
     title: "PRIFGLA Plateau Chapter Receives New APC Entrants",
-    src: "/docvid7.mp4",
+    src: "https://res.cloudinary.com/du5odjbs0/video/upload/v1769470747/docvid6_d8snfd.mp4",
   },
   {
     title: "PRIFGLA Solidarity walk for President Tinubu 2025",
@@ -47,11 +47,11 @@ const videos = [
   },
   {
     title: "AIT cover of the PRIFGLA 2025 Solidarity walk",
-    src: "/docvid9.mp4",
+    src: "https://res.cloudinary.com/du5odjbs0/video/upload/v1769470684/docvid9_ctrhkt.mp4",
   },
   {
     title: "ARISE NEWS cover of the PRIFGLA 2025 Solidarity walk",
-    src: "/docvid10.mp4",
+    src: "https://res.cloudinary.com/du5odjbs0/video/upload/v1769470709/docvid10_vkhtql.mp4",
   },
 
 ];
@@ -64,7 +64,7 @@ const page = () => {
         {/* Background video */}
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
-          src="/bg1.mp4"
+          src="https://res.cloudinary.com/du5odjbs0/video/upload/v1769470442/bg1_nmfkjt.mp4"
           autoPlay
           loop
           muted
