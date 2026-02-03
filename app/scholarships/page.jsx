@@ -26,7 +26,7 @@ const page = () => {
         <div className='w-full border-b border-gray-400/50'></div>
 
         {/* picture slider */}
-        <div className='relative lg:flex items-center lg:justify-center lg:h-screen h-70 w-auto'>
+        <div className='relative md:flex items-center md:justify-center md:h-screen h-70 w-auto'>
 
           <div className='absolute  h-full w-full lg:w-[50rem] '>
 
@@ -39,7 +39,7 @@ const page = () => {
       </motion.section>
       {/* text about his education plan */}
       <section className='min-h-dvh bg-[#0A2342] px-4 lg:px-10 py-15 space-y-10'>
-        <div className='flex items-center justify-center text-white lg:text-2xl text-xl  '>
+        <div className='flex items-center justify-center text-center text-white lg:text-2xl text-xl  '>
           <h1>Chief Pastor Reuben: A Lifelong Commitment to Education and the Promise of Tomorrow</h1>
         </div>
 
@@ -135,7 +135,7 @@ const page = () => {
           initial={{ opacity: 0, x: -70 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          viewport={{ once: false }} className='grid lg:grid-cols-3 gap-10 lg:shadow-md py-10 px-10'>
+          viewport={{ once: false }} className='grid lg:grid-cols-3 md:grid-cols-2 gap-10 lg:shadow-md py-10 px-10'>
           <div className='flex flex-col items-center justify-center space-y-4'>
             <img src="/uniuyopic.jpeg" alt="image" className='h-50 w-50 rounded-full' />
             <span className='space-y-3 flex flex-col items-center justify-center'>

@@ -19,9 +19,9 @@ const Footer = () => {
     ]
     return (
         <main className=' bg-[#0A2342] py-5  '>
-            <section className='flex max-md:flex-col max-md:items-center justify-between lg:px-8 px-4 py-5 pb-20 bg-[#0A2342] text-white max-md:space-y-5'>
+            <section className='flex max-lg:flex-col max-lg:items-center justify-between lg:px-8 px-4 py-5 pb-20 bg-[#0A2342] text-white max-lg:space-y-10'>
 
-                <div className='lg:space-y-15 max-md:flexicol max-md:gap-7 space-y-5'>
+                <div className='lg:space-y-15 max-lg:flexcol max-lg:gap-7 space-y-5'>
                     <div className=''>
                         <Link href={"#"} className='flex gap-1 items-center font-bold text-[#F8F9FA]'>
                             <Image src={"/pstreulogin.jpg"}
@@ -34,7 +34,7 @@ const Footer = () => {
                     </div>
 
                     <Link href={"/prifgla"}>
-                        <div className='border border-white/50 rounded-full px-6 py-2 bg-blue-500/50 hover:bg-yellow-500 transition-all duration-300 hover:scale-110'>
+                        <div className='border border-white/50 w-fit rounded-full px-6 py-2 bg-blue-500/50 hover:bg-yellow-500 transition-all duration-300 hover:scale-110'>
                             <p>See more about PRIFGLA</p>
                         </div>
                     </Link>
@@ -77,11 +77,14 @@ const Footer = () => {
                 </div>
             </section>
             <div className='flex items-center justify-center text-white text-sm  p-2'>
-                <div className='border border-white/50 w-fit px-4 py-3 bg-gray-300/10 gap-2 flex items-center rounded-lg shadow-lg shadow-white/25'>
+                <a href="https://www.fiverr.com/s/XLAdNx0"
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='border border-white/50 w-fit px-4 py-3 bg-gray-300/10 gap-2 flex items-center rounded-lg shadow-lg shadow-white/25'>
 
                     <p>crafted by</p>
                     <p className='font-bold text-yellow-500'>veeracle</p>
-                </div>
+                </a>
             </div>
 
 

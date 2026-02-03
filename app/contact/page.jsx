@@ -93,8 +93,8 @@ const page = () => {
                         initial={{ opacity: 0, x: -70 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
-                        viewport={{ once: false }} className='lg:px-10 px-4 flex lg:justify-center'>
-                        <form onSubmit={handleSubmit} className='flex flex-col space-y-5 px-4 lg:px-10 pb-10 shadow-lg shadow-blue-300 rounded-md max-md:w-100'>
+                        viewport={{ once: false }} className='lg:px-10 px-4 flex md:justify-center'>
+                        <form onSubmit={handleSubmit} className='flex flex-col space-y-5 px-4 lg:px-10 pb-10 shadow-lg shadow-blue-300 rounded-md md:w-150 lg:w-fit w-100'>
                             <h1 className='text-center font-semibold text-blue-900 text-lg underline'>Contact Form</h1>
                             <div className='flex flex-col lg:w-100'>
                                 <label className='text-sm text-gray-800'>Name</label>

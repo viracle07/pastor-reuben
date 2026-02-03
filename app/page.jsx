@@ -61,7 +61,7 @@ const page = () => {
         initial={{ opacity: 0, x: -70 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
-        viewport={{ once: false }} className='lg:py-15 py-10 lg:px-10 px-4 flex max-md:flex-col gap-10'>
+        viewport={{ once: false }} className='lg:py-15 py-10 lg:px-10 px-4 flex max-lg:flex-col gap-10'>
         <div className='bg-[#0A2342] p-10 lg:w-200 w-auto rounded-xl shadow-xl hover:shadow-yellow-200'>
           <span className='text-white space-y-3 text-center'>
             <p className='text-xl font-bold text-yellow-500'>VISION</p>
@@ -86,7 +86,7 @@ const page = () => {
 
       <section className='lg:py-20 py-10 px-4'>
 
-        <div className='relative lg:flex items-center lg:justify-center lg:h-screen h-70 w-auto'>
+        <div className='relative md:flex items-center md:justify-center md:h-screen h-70 w-auto'>
 
           <div className='absolute  h-full w-full lg:w-[50rem] '>
 

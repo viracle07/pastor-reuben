@@ -84,7 +84,7 @@ const page = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
-          viewport={{ once: false }} className="relative lg:px-10 px-4 max-md:space-y-10 z-10  lg:grid grid-cols-3 gap-10">
+          viewport={{ once: false }} className="relative lg:px-10 px-4 max-md:space-y-10 z-10 md:grid-cols-2  grid lg:grid-cols-3 gap-10">
           {videos.map((video, index) => (
             <div
               key={index}

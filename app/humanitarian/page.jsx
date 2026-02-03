@@ -57,7 +57,7 @@ const page = () => {
 
         </div>
 
-        <div className='lg:flex items-center  max-md:space-y-10 gap-5'>
+        <div className='lg:flex items-center md:grid md:grid-cols-2  max-md:space-y-10 gap-5'>
           <div className='flex text-[#0A2342] space-y-4 rounded-md text-sm font-semibold flex-col shadow-md lg:w-100 p-4 bg-white text-center '>
             <img src="reu15.jpeg" alt="images" className='h-70 w-auto rounded-md' />
             <p>Chief Reuben Clifford gifting N100,000 each to widows and old women in Bayelsa State</p>

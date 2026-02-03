@@ -48,7 +48,7 @@ const page = () => {
           </span>
         </div>
 
-        <div className='flex max-md:flex-col max-md:space-y-10 items-center justify-between'>
+        <div className='flex max-lg:flex-col max-lg:space-y-10 items-center justify-between'>
           <div className='rounded-lg bg-[#0A2342] shadow-lg shadow-white/50 h-auto lg:w-150 lg:p-8 p-4 text-yellow-200 text-sm space-y-4 '>
             <p className=''>Under the leadership of Chief Pastor Reuben, PRIFGLA has become more than just a political support group—it is a movement aimed at transforming political engagement into positive, measurable impact. Through strategic advocacy, educational programs, community engagement, and capacity-building initiatives, the organization encourages active participation in governance while promoting ethical standards for public office holders.</p>
 
@@ -68,7 +68,7 @@ const page = () => {
         <div className='w-full border border-yellow-400/25'></div>
       </div>
 
-      <section className='lg:min-h-dvh max-md:py-15 relative w-full overflow-hidden px-4'>
+      <section className='lg:min-h-dvh max-lg:py-15 relative w-full overflow-hidden px-4 w-full'>
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
           src="https://res.cloudinary.com/du5odjbs0/video/upload/v1769470721/prifgla3_lyezza.mp4"
@@ -81,7 +81,7 @@ const page = () => {
         <motion.div initial={{ opacity: 0, scale: 0.90 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          viewport={{ once: false }} className='flex justify-center items-center '>
+          viewport={{ once: false }} className='flex justify-center items-center w-full '>
           <div className='relative lg:h-[25rem] lg:w-[50rem] h-full w-100 lg:p-7 rounded-lg  shadow-lg  lg:mt-25 bg-gray-300' >
             <div className='lg:p-7 p-5 border-2 rounded-lg border-yellow-600 w-fit h-full space-y-5 text-sm'>
               <h1 className='lg:text-2xl text-xl font-bold text-center'>Executive Structure and State Chapters</h1>
@@ -103,13 +103,13 @@ const page = () => {
 
       </section>
 
-      <motion.section initial={{ opacity: 0, rotate: -5 }}
+      <section className=' bg-black min-h-dvh lg:px-10 px-4 py-15 overflow-hidden'>
+        <motion.div initial={{ opacity: 0, rotate: -5 }}
         whileInView={{ opacity: 1, rotate: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        viewport={{ once: false }} className=' bg-black min-h-dvh lg:px-10 px-4 py-15'>
-        <div className='lg:flex max-md:flex-col max-md:space-y-10 items-center gap-15 text-white lg:text-center shadow-md shadow-white/50 p-5 pb-10 '>
+        viewport={{ once: false }} className='lg:flex max-lg:flex-col max-lg:space-y-10 items-center gap-15 text-white lg:text-center shadow-md shadow-white/50 p-5 pb-10 '>
 
-          <div>
+          <div className='w-fit'>
             <p>
               In 2022, Chief Reuben Clifford Wilson took a bold step to strengthen political engagement and leadership in Nigeria by inaugurating PRIFGLA chapters in every South-South state. This strategic initiative was aimed at mobilizing and galvanizing support for President Bola Ahmed Tinubu, while simultaneously building a structured network of committed leaders and supporters across the region. The establishment of these chapters significantly enhanced the organization’s visibility, influence, and ideological reach, positioning PRIFGLA as a powerful political movement capable of shaping public opinion and driving meaningful change.            </p>
           </div>
@@ -120,16 +120,16 @@ const page = () => {
             muted
             className='lg:h-100 h-auto w-auto border-3 border-white' />
 
-          <div>
+          <div className='w-fit'>
             <p>
               PRIFGLA is more than a political support group; it is a platform dedicated to nurturing credible, disciplined, and accountable leaders across Nigeria. Through its chapters, the organization has successfully influenced leadership development in states including Akwa Ibom, Rivers, Edo, Bayelsa, Cross River, and Delta State. By promoting ethical leadership, civic responsibility, and strategic engagement, PRIFGLA empowers members and communities to take active roles in governance, policy advocacy, and decision-making processes at both the grassroots and state levels.
             </p>
           </div>
 
 
-        </div>
+        </motion.div>
 
-      </motion.section>
+      </section>
 
       <div className='lg:px-10 px-4 py-15 '>
         <p>

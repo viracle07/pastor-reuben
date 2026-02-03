@@ -40,7 +40,7 @@ const Navbar = () => {
     ]
 
     return (
-        <main className='relative sticky top-0 z-50 flex items-center max-lg:justify-between lg:gap-[35rem] py-3 lg:px-8 px-4 bg-[#0A2342]'>
+        <main className='relative sticky top-0 z-50 flex items-center max-lg:justify-between lg:gap-[25rem] py-3 lg:px-8 px-4 bg-[#0A2342]'>
             <div className=''>
                 <Link href={"#"} className='flex gap-1 items-center font-bold text-[#F8F9FA]'>
                     <Image src={"/pstreulogin.jpg"}
