@@ -53,6 +53,7 @@ export default function RootLayout({ children }) {
       <Head>
         {/* Google Search Console verification */}
         <meta name="google-site-verification" content="oFlX-FvdiV6d8sb66HJLDO3Zc6Y_uiqzMpXC4LvCtIE" />
+        <link rel="canonical" href="https://www.pastoreubenwilson.com/" />
       </Head>
       <body
         className={`${lora.className} antialiased`}

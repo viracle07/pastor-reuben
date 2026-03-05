@@ -131,7 +131,7 @@ const page = () => {
 
       </section>
 
-      <div className='lg:px-10 px-4 py-15 '>
+      <div className='lg:px-10 px-4 py-15 '> 
         <p>
           Over the years, PRIFGLA has remained committed to building a culture of excellence, transparency, and civic engagement across Nigeria. By combining strategic political mobilization with leadership development, the organization continues to expand its reach and impact, serving as a model for political advocacy and nation-building. Through PRIFGLA, Chief Reuben Wilson has created a lasting legacy of responsible leadership, unity, and empowerment, ensuring that the next generation of leaders is equipped to drive positive transformation across the country.
         </p>
