@@ -30,7 +30,7 @@ export const metadata = {
     title: "Pastor Reuben Wilson | Leadership, Humanitarian & Political Initiatives",
     description:
       "Discover Pastor Reuben Wilson’s initiatives in leadership, education, humanitarian programs, and political development across Nigeria.",
-    url: "https://pastor-reuben-wilson.vercel.app/",
+    url: "https://www.pastoreubenwilson.com",
     siteName: "Pastor Reuben Wilson Official",
     images: [
       {
@@ -41,6 +41,11 @@ export const metadata = {
       },
     ],
     type: "website",
+  },
+
+  metadataBase: new URL("https://www.pastoreubenwilson.com"),
+  alternates: {
+    canonical: "/",
   },
 };
 

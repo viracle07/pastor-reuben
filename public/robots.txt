@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.pastoreubenwilson.com
+
+# Sitemaps
+Sitemap: https://www.pastoreubenwilson.com/sitemap.xml

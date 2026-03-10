@@ -7,7 +7,7 @@ const nextConfig = {
         has: [
           {
             type: "host",
-            value: "pastoreubenwilson.com",
+            value: "pastor-reuben-wilson.vercel.app",
           },
         ],
         destination: "https://www.pastoreubenwilson.com/:path*",
